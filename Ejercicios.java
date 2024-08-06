@@ -8,36 +8,37 @@ public class Ejercicios {
 
         int num = 0, contador =0;
         
-        /*for(int i=0;i<15;i++ ){
+        /*for(int i=0;i<10;i++ ){
                 System.out.println("Ingrese un numero entero");
 	         int numero = sc.nextInt();
                 
-                if (numero == 37){
-                contador = contador + 1; 
+                if (numero>num){
+                num = numero; 
                 }
                 
         }
-         /*do{
+         do{
         System.out.println("Ingrese un numero entero");
          int numero = sc.nextInt();
                
-         if (numero == 37){
-                contador = contador + 1; 
+         if (numero>num){
+                num = numero; 
                 }
-               num++;
-        }while (num < 15);
+               contador++;
+        }while (contador < 10);
 
-        while (num < 15){
+        while (contador < 10){
                 System.out.println("Ingrese un numero entero");
                 int numero = sc.nextInt();
                       
-                if (numero == 37){
-                        contador = contador + 1; 
-                        }
-                       num++;
+                if (numero>num){
+                num = numero; 
+                }
+               contador++;
         }
-        System.out.println("Ingreso " + contador + " veces el numero 37");*/
+        System.out.println("Su numero mas grande es " + num );*/
 
 	}
 
 }
+
